@@ -25,7 +25,7 @@ echo "Average  = ", $average;
 echo "<br>";
 echo "<br>";
 
-$average= 46.4;
+
 switch (true) {
     case ($average<=100 && $average>= 80);
     echo "Grade =  A+";

@@ -3,9 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Card</title>
+<style>
+body{
+    background-color: azure;
+    padding: 0px;
+    margin: 0px;
+    div.parent{
+        height: 600px;
+        /*width: 1200px;*/
+        background-color: #629ee4d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 20px 20px 20px;
+    }
+    div.child{
+        height: 300px;
+        width: 600px;
+        background-color: hsl(0, 23%, 97%); 
+        border-radius: 10px;
+        text-align:left;
+        padding: 5px 0px 20px 20px;
+        
+       
+       
+        
+    }
+    h1{
+        text-align: center;
+        color: coral;
+        margin-top: 5px;
+    }
+    .button1{
+        background-color: rgb(241, 96, 125);
+        border-radius: 5px;
+        shadow:lg;
+    }
+
+    .button2{
+        background-color: rgb(14, 245, 137);
+        border-radius: 5px;
+        shadow:lg;
+    }
+}
+</style>
 </head>
 <body>
-    Hello
+    <div class="parent">
+        <div class="child">
+            <h1>
+                Registration
+            </h1>
+            <form>
+            <lebel>Full Name</lebel>
+            <input class="form-control" type="text" placeholder="Enter Your Name"/>
+            <lebel>User Name</lebel>
+            <input class="form-control" type="text" placeholder="Enter Your username"/> <br/><br/>
+            <lebel>E-mail</lebel>
+            <input class="form-control" type="email" placeholder="Enter Your email"/>
+            <lebel>Phone Number</lebel>
+            <input class="form-control" type="mobile" placeholder="Enter Your Number"/><br/><br/>
+            <lebel>Password</lebel>
+            <input class="form-control" type="password" placeholder="Enter Your password"/>
+            <lebel>Confirm Password</lebel> 
+            <input class="form-control" type="password" placeholder="Confirm password"/>
+              
+            <h4>Gender</h4>
+              <input type="radio"> 
+              <lebel>Male</lebel>
+              <input type="radio">
+              <lebel>Femel</lebel>
+              <input type="radio">
+              <lebel>Other</lebel> <br/><br/>
+              <button class="button1" > Cancel</button>
+              <button class="button2"> Submit</button>
+            </form>
+        </div>
+
+    </div>
+
 </body>
 </html>
